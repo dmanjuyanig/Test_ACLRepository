@@ -80,19 +80,19 @@
       <![CDATA[TestCaseName:TestCase_4_ForgotLinkVerify Status:PASS]]>
     </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="64023" started-at="2019-06-11T04:20:14Z" finished-at="2019-06-11T04:21:18Z">
+  <suite name="Suite" duration-ms="65169" started-at="2019-06-11T05:34:33Z" finished-at="2019-06-11T05:35:38Z">
     <groups>
       <group name="smoke">
-        <method signature="T1_LoginFunctionality.TestCase_1_ValidLogin()[pri:1, instance:script.T1_LoginFunctionality@24b1d79b]" name="TestCase_1_ValidLogin" class="script.T1_LoginFunctionality"/>
-        <method signature="T1_LoginFunctionality.TestCase_2_InvalidLogin()[pri:2, instance:script.T1_LoginFunctionality@24b1d79b]" name="TestCase_2_InvalidLogin" class="script.T1_LoginFunctionality"/>
-        <method signature="T1_LoginFunctionality.TestCase_3_InvalidBlankLogin()[pri:3, instance:script.T1_LoginFunctionality@24b1d79b]" name="TestCase_3_InvalidBlankLogin" class="script.T1_LoginFunctionality"/>
-        <method signature="T1_LoginFunctionality.TestCase_4_ForgotLinkVerify()[pri:4, instance:script.T1_LoginFunctionality@24b1d79b]" name="TestCase_4_ForgotLinkVerify" class="script.T1_LoginFunctionality"/>
-        <method signature="T2_HomePageFunctionality.TestCase_1_ValidLogin()[pri:1, instance:script.T2_HomePageFunctionality@68ceda24]" name="TestCase_1_ValidLogin" class="script.T2_HomePageFunctionality"/>
+        <method signature="T1_LoginFunctionality.TestCase_1_ValidLogin()[pri:1, instance:script.T1_LoginFunctionality@5204062d]" name="TestCase_1_ValidLogin" class="script.T1_LoginFunctionality"/>
+        <method signature="T1_LoginFunctionality.TestCase_2_InvalidLogin()[pri:2, instance:script.T1_LoginFunctionality@5204062d]" name="TestCase_2_InvalidLogin" class="script.T1_LoginFunctionality"/>
+        <method signature="T1_LoginFunctionality.TestCase_3_InvalidBlankLogin()[pri:3, instance:script.T1_LoginFunctionality@5204062d]" name="TestCase_3_InvalidBlankLogin" class="script.T1_LoginFunctionality"/>
+        <method signature="T1_LoginFunctionality.TestCase_4_ForgotLinkVerify()[pri:4, instance:script.T1_LoginFunctionality@5204062d]" name="TestCase_4_ForgotLinkVerify" class="script.T1_LoginFunctionality"/>
+        <method signature="T2_HomePageFunctionality.TestCase_1_ValidLogin()[pri:1, instance:script.T2_HomePageFunctionality@4fcd19b3]" name="TestCase_1_ValidLogin" class="script.T2_HomePageFunctionality"/>
       </group> <!-- smoke -->
     </groups>
-    <test name="Test" duration-ms="64023" started-at="2019-06-11T04:20:14Z" finished-at="2019-06-11T04:21:18Z">
+    <test name="Test" duration-ms="65169" started-at="2019-06-11T05:34:33Z" finished-at="2019-06-11T05:35:38Z">
       <class name="script.T2_HomePageFunctionality">
-        <test-method status="PASS" signature="openApp(java.lang.String, java.lang.String)[pri:0, instance:script.T2_HomePageFunctionality@68ceda24]" name="openApp" is-config="true" duration-ms="3808" started-at="2019-06-11T04:20:28Z" finished-at="2019-06-11T04:20:32Z">
+        <test-method status="PASS" signature="openApp(java.lang.String, java.lang.String)[pri:0, instance:script.T2_HomePageFunctionality@4fcd19b3]" name="openApp" is-config="true" duration-ms="3936" started-at="2019-06-11T05:34:47Z" finished-at="2019-06-11T05:34:51Z">
           <params>
             <param index="0">
               <value>
@@ -108,7 +108,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openApp -->
-        <test-method status="PASS" signature="TestCase_1_ValidLogin()[pri:1, instance:script.T2_HomePageFunctionality@68ceda24]" name="TestCase_1_ValidLogin" duration-ms="17235" started-at="2019-06-11T04:20:32Z" description="Verifying valid login functionality" finished-at="2019-06-11T04:20:49Z">
+        <test-method status="PASS" signature="TestCase_1_ValidLogin()[pri:1, instance:script.T2_HomePageFunctionality@4fcd19b3]" name="TestCase_1_ValidLogin" duration-ms="17633" started-at="2019-06-11T05:34:51Z" description="Verifying valid login functionality" finished-at="2019-06-11T05:35:08Z">
           <reporter-output>
             <line>
               <![CDATA[Element is present-- PASS ]]>
@@ -130,11 +130,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- TestCase_1_ValidLogin -->
-        <test-method status="PASS" signature="closeApp(org.testng.ITestResult)[pri:0, instance:script.T2_HomePageFunctionality@68ceda24]" name="closeApp" is-config="true" duration-ms="798" started-at="2019-06-11T04:20:49Z" finished-at="2019-06-11T04:20:50Z">
+        <test-method status="PASS" signature="closeApp(org.testng.ITestResult)[pri:0, instance:script.T2_HomePageFunctionality@4fcd19b3]" name="closeApp" is-config="true" duration-ms="821" started-at="2019-06-11T05:35:08Z" finished-at="2019-06-11T05:35:09Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=TestCase_1_ValidLogin status=SUCCESS method=T2_HomePageFunctionality.TestCase_1_ValidLogin()[pri:1, instance:script.T2_HomePageFunctionality@68ceda24] output=Element is present-- PASS ]]]>
+                <![CDATA[[TestResult name=TestCase_1_ValidLogin status=SUCCESS method=T2_HomePageFunctionality.TestCase_1_ValidLogin()[pri:1, instance:script.T2_HomePageFunctionality@4fcd19b3] output=Element is present-- PASS ]]]>
               </value>
             </param>
           </params>
@@ -146,7 +146,7 @@
         </test-method> <!-- closeApp -->
       </class> <!-- script.T2_HomePageFunctionality -->
       <class name="script.T1_LoginFunctionality">
-        <test-method status="PASS" signature="openApp(java.lang.String, java.lang.String)[pri:0, instance:script.T1_LoginFunctionality@24b1d79b]" name="openApp" is-config="true" duration-ms="4790" started-at="2019-06-11T04:20:14Z" finished-at="2019-06-11T04:20:19Z">
+        <test-method status="PASS" signature="openApp(java.lang.String, java.lang.String)[pri:0, instance:script.T1_LoginFunctionality@5204062d]" name="openApp" is-config="true" duration-ms="4722" started-at="2019-06-11T05:34:33Z" finished-at="2019-06-11T05:34:37Z">
           <params>
             <param index="0">
               <value>
@@ -162,7 +162,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openApp -->
-        <test-method status="PASS" signature="TestCase_1_ValidLogin()[pri:1, instance:script.T1_LoginFunctionality@24b1d79b]" name="TestCase_1_ValidLogin" duration-ms="8028" started-at="2019-06-11T04:20:19Z" description="Verifying valid login functionality" finished-at="2019-06-11T04:20:27Z">
+        <test-method status="PASS" signature="TestCase_1_ValidLogin()[pri:1, instance:script.T1_LoginFunctionality@5204062d]" name="TestCase_1_ValidLogin" duration-ms="8363" started-at="2019-06-11T05:34:37Z" description="Verifying valid login functionality" finished-at="2019-06-11T05:34:46Z">
           <reporter-output>
             <line>
               <![CDATA[Element is present-- PASS ]]>
@@ -193,11 +193,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- TestCase_1_ValidLogin -->
-        <test-method status="PASS" signature="closeApp(org.testng.ITestResult)[pri:0, instance:script.T1_LoginFunctionality@24b1d79b]" name="closeApp" is-config="true" duration-ms="1114" started-at="2019-06-11T04:20:27Z" finished-at="2019-06-11T04:20:28Z">
+        <test-method status="PASS" signature="closeApp(org.testng.ITestResult)[pri:0, instance:script.T1_LoginFunctionality@5204062d]" name="closeApp" is-config="true" duration-ms="943" started-at="2019-06-11T05:34:46Z" finished-at="2019-06-11T05:34:47Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=TestCase_1_ValidLogin status=SUCCESS method=T1_LoginFunctionality.TestCase_1_ValidLogin()[pri:1, instance:script.T1_LoginFunctionality@24b1d79b] output=Element is present-- PASS ]]]>
+                <![CDATA[[TestResult name=TestCase_1_ValidLogin status=SUCCESS method=T1_LoginFunctionality.TestCase_1_ValidLogin()[pri:1, instance:script.T1_LoginFunctionality@5204062d] output=Element is present-- PASS ]]]>
               </value>
             </param>
           </params>
@@ -207,7 +207,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- closeApp -->
-        <test-method status="PASS" signature="openApp(java.lang.String, java.lang.String)[pri:0, instance:script.T1_LoginFunctionality@24b1d79b]" name="openApp" is-config="true" duration-ms="3872" started-at="2019-06-11T04:20:50Z" finished-at="2019-06-11T04:20:54Z">
+        <test-method status="PASS" signature="openApp(java.lang.String, java.lang.String)[pri:0, instance:script.T1_LoginFunctionality@5204062d]" name="openApp" is-config="true" duration-ms="3869" started-at="2019-06-11T05:35:09Z" finished-at="2019-06-11T05:35:13Z">
           <params>
             <param index="0">
               <value>
@@ -223,7 +223,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openApp -->
-        <test-method status="PASS" signature="TestCase_2_InvalidLogin()[pri:2, instance:script.T1_LoginFunctionality@24b1d79b]" name="TestCase_2_InvalidLogin" duration-ms="3409" started-at="2019-06-11T04:20:54Z" description="Verifying invalid login functionality" finished-at="2019-06-11T04:20:57Z">
+        <test-method status="PASS" signature="TestCase_2_InvalidLogin()[pri:2, instance:script.T1_LoginFunctionality@5204062d]" name="TestCase_2_InvalidLogin" duration-ms="3895" started-at="2019-06-11T05:35:13Z" description="Verifying invalid login functionality" finished-at="2019-06-11T05:35:17Z">
           <reporter-output>
             <line>
               <![CDATA[Required page is displayed]]>
@@ -233,11 +233,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- TestCase_2_InvalidLogin -->
-        <test-method status="PASS" signature="closeApp(org.testng.ITestResult)[pri:0, instance:script.T1_LoginFunctionality@24b1d79b]" name="closeApp" is-config="true" duration-ms="834" started-at="2019-06-11T04:20:57Z" finished-at="2019-06-11T04:20:58Z">
+        <test-method status="PASS" signature="closeApp(org.testng.ITestResult)[pri:0, instance:script.T1_LoginFunctionality@5204062d]" name="closeApp" is-config="true" duration-ms="769" started-at="2019-06-11T05:35:17Z" finished-at="2019-06-11T05:35:18Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=TestCase_2_InvalidLogin status=SUCCESS method=T1_LoginFunctionality.TestCase_2_InvalidLogin()[pri:2, instance:script.T1_LoginFunctionality@24b1d79b] output=Required page is displayed]]]>
+                <![CDATA[[TestResult name=TestCase_2_InvalidLogin status=SUCCESS method=T1_LoginFunctionality.TestCase_2_InvalidLogin()[pri:2, instance:script.T1_LoginFunctionality@5204062d] output=Required page is displayed]]]>
               </value>
             </param>
           </params>
@@ -247,7 +247,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- closeApp -->
-        <test-method status="PASS" signature="openApp(java.lang.String, java.lang.String)[pri:0, instance:script.T1_LoginFunctionality@24b1d79b]" name="openApp" is-config="true" duration-ms="3851" started-at="2019-06-11T04:20:58Z" finished-at="2019-06-11T04:21:02Z">
+        <test-method status="PASS" signature="openApp(java.lang.String, java.lang.String)[pri:0, instance:script.T1_LoginFunctionality@5204062d]" name="openApp" is-config="true" duration-ms="3888" started-at="2019-06-11T05:35:18Z" finished-at="2019-06-11T05:35:21Z">
           <params>
             <param index="0">
               <value>
@@ -263,7 +263,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openApp -->
-        <test-method status="PASS" signature="TestCase_3_InvalidBlankLogin()[pri:3, instance:script.T1_LoginFunctionality@24b1d79b]" name="TestCase_3_InvalidBlankLogin" duration-ms="3467" started-at="2019-06-11T04:21:02Z" description="Verifying invalid login functionality" finished-at="2019-06-11T04:21:06Z">
+        <test-method status="PASS" signature="TestCase_3_InvalidBlankLogin()[pri:3, instance:script.T1_LoginFunctionality@5204062d]" name="TestCase_3_InvalidBlankLogin" duration-ms="3324" started-at="2019-06-11T05:35:21Z" description="Verifying invalid login functionality" finished-at="2019-06-11T05:35:25Z">
           <reporter-output>
             <line>
               <![CDATA[Required page is displayed]]>
@@ -273,11 +273,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- TestCase_3_InvalidBlankLogin -->
-        <test-method status="PASS" signature="closeApp(org.testng.ITestResult)[pri:0, instance:script.T1_LoginFunctionality@24b1d79b]" name="closeApp" is-config="true" duration-ms="770" started-at="2019-06-11T04:21:06Z" finished-at="2019-06-11T04:21:06Z">
+        <test-method status="PASS" signature="closeApp(org.testng.ITestResult)[pri:0, instance:script.T1_LoginFunctionality@5204062d]" name="closeApp" is-config="true" duration-ms="767" started-at="2019-06-11T05:35:25Z" finished-at="2019-06-11T05:35:26Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=TestCase_3_InvalidBlankLogin status=SUCCESS method=T1_LoginFunctionality.TestCase_3_InvalidBlankLogin()[pri:3, instance:script.T1_LoginFunctionality@24b1d79b] output=Required page is displayed]]]>
+                <![CDATA[[TestResult name=TestCase_3_InvalidBlankLogin status=SUCCESS method=T1_LoginFunctionality.TestCase_3_InvalidBlankLogin()[pri:3, instance:script.T1_LoginFunctionality@5204062d] output=Required page is displayed]]]>
               </value>
             </param>
           </params>
@@ -287,7 +287,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- closeApp -->
-        <test-method status="PASS" signature="openApp(java.lang.String, java.lang.String)[pri:0, instance:script.T1_LoginFunctionality@24b1d79b]" name="openApp" is-config="true" duration-ms="3765" started-at="2019-06-11T04:21:06Z" finished-at="2019-06-11T04:21:10Z">
+        <test-method status="PASS" signature="openApp(java.lang.String, java.lang.String)[pri:0, instance:script.T1_LoginFunctionality@5204062d]" name="openApp" is-config="true" duration-ms="4031" started-at="2019-06-11T05:35:26Z" finished-at="2019-06-11T05:35:30Z">
           <params>
             <param index="0">
               <value>
@@ -303,7 +303,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openApp -->
-        <test-method status="PASS" signature="TestCase_4_ForgotLinkVerify()[pri:4, instance:script.T1_LoginFunctionality@24b1d79b]" name="TestCase_4_ForgotLinkVerify" duration-ms="7349" started-at="2019-06-11T04:21:10Z" description="Verifying forgot password link functionality" finished-at="2019-06-11T04:21:17Z">
+        <test-method status="PASS" signature="TestCase_4_ForgotLinkVerify()[pri:4, instance:script.T1_LoginFunctionality@5204062d]" name="TestCase_4_ForgotLinkVerify" duration-ms="7360" started-at="2019-06-11T05:35:30Z" description="Verifying forgot password link functionality" finished-at="2019-06-11T05:35:37Z">
           <reporter-output>
             <line>
               <![CDATA[Required page is displayed]]>
@@ -313,11 +313,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- TestCase_4_ForgotLinkVerify -->
-        <test-method status="PASS" signature="closeApp(org.testng.ITestResult)[pri:0, instance:script.T1_LoginFunctionality@24b1d79b]" name="closeApp" is-config="true" duration-ms="898" started-at="2019-06-11T04:21:17Z" finished-at="2019-06-11T04:21:18Z">
+        <test-method status="PASS" signature="closeApp(org.testng.ITestResult)[pri:0, instance:script.T1_LoginFunctionality@5204062d]" name="closeApp" is-config="true" duration-ms="811" started-at="2019-06-11T05:35:37Z" finished-at="2019-06-11T05:35:38Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=TestCase_4_ForgotLinkVerify status=SUCCESS method=T1_LoginFunctionality.TestCase_4_ForgotLinkVerify()[pri:4, instance:script.T1_LoginFunctionality@24b1d79b] output=Required page is displayed]]]>
+                <![CDATA[[TestResult name=TestCase_4_ForgotLinkVerify status=SUCCESS method=T1_LoginFunctionality.TestCase_4_ForgotLinkVerify()[pri:4, instance:script.T1_LoginFunctionality@5204062d] output=Required page is displayed]]]>
               </value>
             </param>
           </params>
