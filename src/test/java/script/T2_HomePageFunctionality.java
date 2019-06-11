@@ -6,7 +6,6 @@ import generic.BaseTest;
 import generic.Utility;
 import generic.WebGeneric;
 import page.DashBoardPage;
-import page.ForgotPasswordPage;
 import page.LoginPage;
 import page.MyEmployeePage;
 

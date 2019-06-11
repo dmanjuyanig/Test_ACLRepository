@@ -66,7 +66,8 @@ public class ExtendReporterNG implements IReporter {
         }
     }
  
-    private Date getTime(long millis) {
+    private Date getTime(long millis) 
+    {
         Calendar calendar = Calendar.getInstance();
         calendar.setTimeInMillis(millis);
         return calendar.getTime();        
