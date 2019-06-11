@@ -1,0 +1,23 @@
+<suite name="Suite" parallel="tests">
+
+ <listeners>
+     
+         <listener class-name="generic.Result"/>
+         <listener class-name="generic.ExtendReporterNG"/>
+        
+ </listeners>
+ 
+  <test name="Test">
+  	<groups>
+  		<run>
+  			<include name="smoke"/>
+  		</run>
+  	</groups>
+   <parameter name="ip" value="localhost"/>
+  <parameter name="browser" value="chrome"/>
+ <!--  <parameter name="browser" value="gecko"/> -->
+    <packages>
+      <package name="script"/>
+    </packages>
+  </test> 
+</suite> 

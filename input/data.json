@@ -1,0 +1,16 @@
+{
+	"LoginDetails":
+	{
+		"username" : "manju.r",
+		"password" : "Yanig_11sid",
+		"invalidusername" : "admin123@alten.com",
+		"invalidpassword" : "test123@123",
+		"blankusername" : "",
+		"blankpassword" : "",
+		"homepage" : "Home",
+		"loginpage" : "Login",
+		"forgotpasswordpage" : "forgottenpassword"
+		
+	}
+}
+	
