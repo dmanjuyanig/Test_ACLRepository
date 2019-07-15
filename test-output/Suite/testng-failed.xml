@@ -16,7 +16,7 @@
     <classes>
       <class name="script.T1_LoginFunctionality">
         <methods>
-          <include name="TestCase_3_ForgotLinkVerify"/>
+          <include name="TestCase_1_ValidLogin"/>
           <include name="openApp"/>
           <include name="closeApp"/>
         </methods>

@@ -9,11 +9,39 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="7">Suite</th></tr>
-<tr><td><a href="#t0">Test</a></td><td class="num">5</td><td class="num">0</td><td class="num">0</td><td class="num">65,169</td><td>smoke</td><td></td></tr>
+<tr><td><a href="#t0">Test</a></td><td class="num">4</td><td class="num">0</td><td class="num attn">1</td><td class="num">107,389</td><td>smoke</td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="4">script.T1_LoginFunctionality</td><td><a href="#m0">TestCase_1_ValidLogin</a></td><td rowspan="1">1560231277794</td><td rowspan="1">8363</td></tr><tr class="passedeven"><td><a href="#m1">TestCase_2_InvalidLogin</a></td><td rowspan="1">1560231313370</td><td rowspan="1">3895</td></tr><tr class="passedeven"><td><a href="#m2">TestCase_3_InvalidBlankLogin</a></td><td rowspan="1">1560231321925</td><td rowspan="1">3324</td></tr><tr class="passedeven"><td><a href="#m3">TestCase_4_ForgotLinkVerify</a></td><td rowspan="1">1560231330048</td><td rowspan="1">7360</td></tr><tr class="passedodd"><td rowspan="1">script.T2_HomePageFunctionality</td><td><a href="#m4">TestCase_1_ValidLogin</a></td><td rowspan="1">1560231291042</td><td rowspan="1">17633</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">script.T1_LoginFunctionality</td><td><a href="#m0">TestCase_1_ValidLogin</a></td><td rowspan="1">1563172899921</td><td rowspan="1">43867</td></tr><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">script.T1_LoginFunctionality</td><td><a href="#m1">TestCase_2_InvalidLogin</a></td><td rowspan="1">1563172974756</td><td rowspan="1">3488</td></tr><tr class="passedeven"><td><a href="#m2">TestCase_3_InvalidBlankLogin</a></td><td rowspan="1">1563172983804</td><td rowspan="1">3405</td></tr><tr class="passedeven"><td><a href="#m3">TestCase_4_ForgotLinkVerify</a></td><td rowspan="1">1563172993025</td><td rowspan="1">7321</td></tr><tr class="passedodd"><td rowspan="1">script.T2_HomePageFunctionality</td><td><a href="#m4">TestCase_1_ValidLogin</a></td><td rowspan="1">1563172950141</td><td rowspan="1">18977</td></tr></tbody>
 </table>
-<h2>Test</h2><h3 id="m0">script.T1_LoginFunctionality#TestCase_1_ValidLogin</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Element is present-- PASS <br/>Element is present-- PASS <br/>Element is present-- PASS <br/>Required page is displayed<br/>Element is Visible<br/>Element is present-- PASS <br/>Element is present-- PASS <br/>Element is Visible<br/>Required page is displayed</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Test</h2><h3 id="m0">script.T1_LoginFunctionality#TestCase_1_ValidLogin</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Element is present-- PASS <br/>Element is present-- PASS <br/>Element is present-- PASS <br/>Required page is NOT displayed<br/>Element is NOT Visible</div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//img[@src = &quot;Images/home-mypage1.png&quot;]&quot;}
+  (Session info: chrome=75.0.3770.100)
+  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10.06 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: host: &apos;CLPSTPDFC472&apos;, ip: &apos;192.168.43.215&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_201&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=WIN8_1, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:64686}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e), userDataDir=C:\Users\manju.r\AppData\Local\Temp\scoped_dir4752_6519}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=75.0.3770.100, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: fc8941409648c89510061ed5b1c5c093
+*** Element info: {Using=xpath, value=//img[@src = &quot;Images/home-mypage1.png&quot;]}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:671)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:410)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:509)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy10.click(Unknown Source)
+	at generic.WebGeneric.waitForVisibilityAndClick(WebGeneric.java:27)
+	at page.DashBoardPage.clickMyPageImage(DashBoardPage.java:83)
+	at script.T1_LoginFunctionality.TestCase_1_ValidLogin(T1_LoginFunctionality.java:37)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 20 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 <h3 id="m1">script.T1_LoginFunctionality#TestCase_2_InvalidLogin</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Required page is displayed<br/>error message is matchingUsername or password incorrect</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 <h3 id="m2">script.T1_LoginFunctionality#TestCase_3_InvalidBlankLogin</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Required page is displayed<br/>error message is matchingUsername and password required</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 <h3 id="m3">script.T1_LoginFunctionality#TestCase_4_ForgotLinkVerify</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Required page is displayed<br/>error message is matchingIf you have forgotten your password, follow the prompts to reset your password.</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
